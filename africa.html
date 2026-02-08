@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>African News | Alethia News</title>
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="sideMenu" class="side-menu">
+  <div class="side-menu-header">
+    <h3>Menu</h3>
+    <button id="closeMenu" aria-label="Close menu">&times;</button>
+  </div>
+  <ul class="side-menu-links">
+    <li><a href="about.html">How Alethia News Works</a></li>
+    <li><a href="sources.html">Sources & Methodology</a></li>
+    <li><a href="ethics.html">Editorial Principles</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
+<div id="overlay"></div>
+
+<header class="top-header">
+  <div class="header-left">
+    <button id="openMenu" class="menu-icon" aria-label="Open menu">&#9776;</button>
+    <a href="../index.html" class="site-name">Alethia News</a>
+  </div>
+  <input type="text" id="searchInput" class="search-box" placeholder="Search news..." aria-label="Search articles">
+</header>
+
+<div class="news-ticker-container">
+  <div class="ticker-text">
+    AFRICA: Rwanda-backed M23 consolidates DRC control +++ Sudan RSF captures oil region +++ Namibia voting extends +++ Uganda election disputed
+  </div>
+</div>
+
+<nav class="region-nav">
+  <a href="../index.html">Global</a>
+  <a href="europe.html">European</a>
+  <a href="america.html">American</a>
+  <a href="india.html">Indian</a>
+  <a href="china.html">Chinese</a>
+  <a href="russia.html">Russian</a>
+  <a href="japan.html">Japanese</a>
+  <a href="middle_east.html">Middle East</a>
+  <a href="africa.html" class="active">African</a>
+</nav>
+
+<main class="main-content">
+  <h2>African News</h2>
+  <p id="noResults" class="no-results" style="display:none;">No articles found matching your search.</p>
+
+  <section class="news-grid" id="newsGrid">
+
+    <!-- LEAD STORY -->
+    <article class="news-card card-lead" data-keywords="rwanda m23 congo drc conflict uvira kivu displacement humanitarian crisis">
+      <img src="../images/africa1.jpg" alt="DRC conflict zone" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3><a href="africa-drc.html" style="color: #000080; text-decoration: none;">Rwanda-Backed M23 Consolidates Control in Eastern DRC</a></h3>
+        <p>Rwanda-backed March 23 Movement (M23) rebels consolidated control over Uvira in South Kivu province on December 10, 2025, seizing major economic infrastructure and territorial corridors while maintaining plains control despite U.S.-brokered peace agreements.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 49%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="africa-drc.html" class="source-link">Read Full Story →</a>
+      </div>
+    </article>
+
+    <!-- SECONDARY STORIES -->
+    <article class="news-card card-secondary" data-keywords="sudan rsf civil war kordofan oil heglig darfur conflict">
+      <img src="../images/africa2.jpg" alt="Sudan conflict zone" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3><a href="africa-sudan.html" style="color: #000080; text-decoration: none;">RSF Consolidates West Kordofan Control; Oil Infrastructure Seized</a></h3>
+        <p>The Rapid Support Forces (RSF) consolidated complete control over West Kordofan state in Sudan on December 8, 2025, capturing Heglig, a strategic oil processing facility processing 130,000 barrels of South Sudanese crude daily.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 48%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="africa-sudan.html" class="source-link">Read Full Story →</a>
+      </div>
+    </article>
+
+    <article class="news-card card-secondary" data-keywords="namibia election voting technical problems polling democracy">
+      <img src="../images/africa3.jpg" alt="Namibian polling station" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3><a href="africa-namibia.html" style="color: #000080; text-decoration: none;">Namibia Voting Extends into Third Day After Technical Problems</a></h3>
+        <p>Namibian voters returned to polling stations on February 2, 2026, for continuation of the nation's general election after technical problems disrupted voting on the initial polling date.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 50%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="africa-namibia.html" class="source-link">Read Full Story →</a>
+      </div>
+    </article>
+
+    <!-- TERTIARY STORIES -->
+    <article class="news-card card-tertiary" data-keywords="uganda election museveni fraud bobi wine democracy authoritarianism">
+      <img src="../images/africa4.jpg" alt="Uganda election scene" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>Uganda's Museveni Declared Election Winner Amid Fraud Allegations</h3>
+        <p>Uganda's longtime president Yoweri Museveni was declared the winner of the contested January 2026 election despite widespread fraud allegations and opposition claims of electoral irregularities.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 47%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="news-card card-tertiary" data-keywords="nigeria us military deployment terrorism lakurawa sahel counterterrorism">
+      <img src="../images/africa5.jpg" alt="US military deployment" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>U.S. Military Team Deployed to Nigeria; Counter-Jihadist Operations Expand</h3>
+        <p>The United States announced deployment of a small team of military officers to Nigeria on February 3, 2026, following recent attacks attributed to jihadist militants.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 51%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="news-card card-tertiary" data-keywords="east african community eac anniversary regional integration trade cooperation">
+      <img src="../images/africa6.jpg" alt="EAC summit in Arusha" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>East African Community Marks 25th Anniversary</h3>
+        <p>The East African Community celebrated its 25th anniversary on February 2, 2026, in Arusha, Tanzania, with member states reaffirming commitments to regional economic integration.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 50%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </section>
+</main>
+
+<script src="../menu.js"></script>
+<script src="../search.js"></script>
+
+</body>
+</html>

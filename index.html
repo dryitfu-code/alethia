@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global News | Alethia News</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- SIDE MENU -->
+<div id="sideMenu" class="side-menu">
+  <div class="side-menu-header">
+    <h3>Menu</h3>
+    <button id="closeMenu" aria-label="Close menu">&times;</button>
+  </div>
+  <ul class="side-menu-links">
+    <li><a href="pages/about.html">How Alethia News Works</a></li>
+    <li><a href="pages/sources.html">Sources & Methodology</a></li>
+    <li><a href="pages/ethics.html">Editorial Principles</a></li>
+    <li><a href="pages/contact.html">Contact</a></li>
+  </ul>
+</div>
+
+<div id="overlay"></div>
+
+<!-- HEADER -->
+<header class="top-header">
+  <div class="header-left">
+    <button id="openMenu" class="menu-icon" aria-label="Open menu">&#9776;</button>
+    <a href="index.html" class="site-name">Alethia News</a>
+  </div>
+  <input type="text" id="searchInput" class="search-box" placeholder="Search news..." aria-label="Search articles">
+</header>
+
+<!-- TICKER -->
+<div class="news-ticker-container">
+  <div class="ticker-text">
+    BREAKING: Epstein files released raising DOJ questions +++ New START treaty expires +++ China-Uruguay diplomatic engagement +++ Heavy snowfall in Japan +++ EU-Iran tensions escalate
+  </div>
+</div>
+
+<!-- NAVIGATION -->
+<nav class="region-nav">
+  <a href="index.html" class="active">Global</a>
+  <a href="pages/europe.html">European</a>
+  <a href="pages/america.html">American</a>
+  <a href="pages/india.html">Indian</a>
+  <a href="pages/china.html">Chinese</a>
+  <a href="pages/russia.html">Russian</a>
+  <a href="pages/japan.html">Japanese</a>
+  <a href="pages/middle_east.html">Middle East</a>
+  <a href="pages/africa.html">African</a>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main class="main-content">
+  <h2>Global News</h2>
+  <p id="noResults" class="no-results" style="display:none;">No articles found matching your search.</p>
+
+  <section class="news-grid" id="newsGrid">
+
+    <!-- LEAD STORY -->
+    <article class="news-card card-lead" data-keywords="epstein files justice department doj victims unredacted scandal">
+      <img src="images/pictuere.jpg" alt="Department of Justice building" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3><a href="pages/global-epstein-files.html" style="color: #000080; text-decoration: none;">Epstein Files Released; Justice Department Under Scrutiny for Data Handling</a></h3>
+        <p>The U.S. Justice Department released more than 3 million pages of documents related to the late financier Jeffrey Epstein on February 3, concluding a yearslong sealed records review. However, investigations into the Justice Department's handling of the sensitive materials have intensified, with the Wall Street Journal reporting that 43 survivors' names were left unredacted in the publicly released files.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 50%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="pages/global-epstein-files.html" class="source-link">Read Full Story →</a>
+      </div>
+    </article>
+
+    <!-- SECONDARY STORIES -->
+    <article class="news-card card-secondary" data-keywords="china uruguay latin america xi jinping diplomacy trade">
+      <img src="images/global2.jpg" alt="China-Uruguay diplomatic meeting" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3><a href="pages/global-china-uruguay.html" style="color: #000080; text-decoration: none;">China-Uruguay Meeting Signals Broader Latin American Engagement</a></h3>
+        <p>Uruguayan President Yamandú Orsi met with Chinese President Xi Jinping on February 3, marking the first visit by a Latin American leader to China since the Trump administration's extradition of Venezuelan leader Nicolás Maduro in January.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 48%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="pages/global-china-uruguay.html" class="source-link">Read Full Story →</a>
+      </div>
+    </article>
+
+    <article class="news-card card-secondary" data-keywords="new start treaty nuclear arms russia united states disarmament">
+      <img src="images/global3.jpg" alt="Nuclear weapons treaty signing" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3><a href="pages/global-new-start.html" style="color: #000080; text-decoration: none;">New START Treaty Expires; Strategic Nuclear Stability in Question</a></h3>
+        <p>The New START treaty, the last remaining strategic nuclear arms limitation agreement between the United States and Russia, expired on February 3, 2026, removing legal constraints on deployed strategic nuclear warheads and delivery systems.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 49%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="pages/global-new-start.html" class="source-link">Read Full Story →</a>
+      </div>
+    </article>
+
+    <!-- TERTIARY STORIES -->
+    <article class="news-card card-tertiary" data-keywords="pakistan india cricket t20 world cup boycott icc sports">
+      <img src="images/global4.jpg" alt="Cricket stadium" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>Pakistan Boycotts T20 World Cup Match Against India</h3>
+        <p>Pakistan announced its decision to boycott its T20 World Cup cricket match against India, scheduled as part of the tournament beginning February 7, 2026, citing regional tensions and diplomatic friction.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 50%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="news-card card-tertiary" data-keywords="eu iran irgc terrorism europe sanctions protest">
+      <img src="images/global5.jpg" alt="EU parliament session" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>EU and Iran Relations Escalate; IRGC Listed as Terrorist Organization</h3>
+        <p>The European Union formally designated Iran's Islamic Revolutionary Guard Corps (IRGC) as a terrorist organization on January 30, 2026, prompting sharp retaliation from Tehran.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 47%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="news-card card-tertiary" data-keywords="japan snowfall disaster emergency deaths weather">
+      <img src="images/global6.jpg" alt="Heavy snowfall in Japan" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>Heavy Snowfall in Japan Kills at Least 30</h3>
+        <p>Record-breaking snowfall across Japan on February 2-3, 2026, has resulted in at least 30 deaths, with authorities warning of avalanche risks and structural collapses from accumulated snow.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 50%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </section>
+</main>
+
+<script src="menu.js"></script>
+<script src="search.js"></script>
+</body>
+</html>

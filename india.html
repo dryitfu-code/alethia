@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indian News | Alethia News</title>
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- SIDE MENU -->
+<div id="sideMenu" class="side-menu">
+  <div class="side-menu-header">
+    <h3>Menu</h3>
+    <button id="closeMenu" aria-label="Close menu">&times;</button>
+  </div>
+  <ul class="side-menu-links">
+    <li><a href="about.html">How Alethia News Works</a></li>
+    <li><a href="sources.html">Sources & Methodology</a></li>
+    <li><a href="ethics.html">Editorial Principles</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
+<div id="overlay"></div>
+
+<header class="top-header">
+  <div class="header-left">
+    <button id="openMenu" class="menu-icon" aria-label="Open menu">&#9776;</button>
+    <a href="../index.html" class="site-name">Alethia News</a>
+  </div>
+  <input type="text" id="searchInput" class="search-box" placeholder="Search news..." aria-label="Search articles">
+</header>
+
+<div class="news-ticker-container">
+  <div class="ticker-text">
+    INDIA: Trump-Modi trade deal announced +++ Union Budget 2026 emphasizes semiconductors +++ Pakistan threatens T20 World Cup boycott +++ Nipah virus outbreak in West Bengal
+  </div>
+</div>
+
+<nav class="region-nav">
+  <a href="../index.html">Global</a>
+  <a href="europe.html">European</a>
+  <a href="america.html">American</a>
+  <a href="india.html" class="active">Indian</a>
+  <a href="china.html">Chinese</a>
+  <a href="russia.html">Russian</a>
+  <a href="japan.html">Japanese</a>
+  <a href="middle_east.html">Middle East</a>
+  <a href="africa.html">African</a>
+</nav>
+
+<main class="main-content">
+  <h2>Indian News</h2>
+  <p id="noResults" class="no-results" style="display:none;">No articles found matching your search.</p>
+
+  <section class="news-grid" id="newsGrid">
+
+    <!-- LEAD STORY -->
+    <article class="news-card card-lead" data-keywords="india us trade deal trump modi tariffs russia oil diplomacy">
+      <img src="../images/india1.jpg" alt="Modi-Trump bilateral meeting" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>Trump-Modi Trade Deal Reduces U.S. Tariffs; India to End Russian Oil Purchases</h3>
+        <p>President Trump and Prime Minister Narendra Modi announced a bilateral trade agreement on February 2, 2026, establishing U.S. tariffs on Indian exports at 18% in exchange for India's commitment to cease crude oil purchases from Russia. The accord represents a significant shift in U.S.-India trade relations and reflects the Trump administration's strategy to isolate Russian energy revenues while strengthening partnerships with strategic Asian allies. Indian officials characterized the agreement as favorable to long-term bilateral cooperation, though full details of tariff schedules across commodity sectors remain under negotiation. The accord signals India's willingness to balance economic interests with geopolitical alignment alongside the United States, while managing relationships with Russia and other regional partners.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 51%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="sources-india.html#trade-deal" class="source-link">View sources & spectrum →</a>
+      </div>
+    </article>
+
+    <!-- SECONDARY STORIES -->
+    <article class="news-card card-secondary" data-keywords="india budget 2026 semiconductors electronics skill development sitharaman">
+      <img src="../images/india2.jpg" alt="Finance Minister Sitharaman presents budget" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>Union Budget 2026 Emphasizes Semiconductor Manufacturing and Skill Development</h3>
+        <p>Finance Minister Nirmala Sitharaman presented India's Union Budget 2026 on February 1, with emphasis on semiconductor manufacturing capacity, doubled electronics components scheme funding, and a fourfold increase in skill development ministry allocations. The budget reinforces India's "Make in India" initiative and targets infrastructure development, particularly underground rail connectivity to northeastern regions. The budget allocates substantial resources to the Semiconductor Mission 2.0, reflecting government prioritization of domestic electronics manufacturing and technology sovereignty.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 50%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="sources-india.html#budget-2026" class="source-link">View sources & spectrum →</a>
+      </div>
+    </article>
+
+    <article class="news-card card-secondary" data-keywords="pakistan india cricket t20 world cup boycott icc sports diplomacy">
+      <img src="../images/india3.jpg" alt="Cricket World Cup venue" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>Cricket Diplomacy Under Strain; Pakistan Threatens T20 World Cup Boycott</h3>
+        <p>Pakistan announced on February 1, 2026, its intention to boycott the Men's T20 World Cup match against India scheduled for February 7, citing escalated regional tensions and historical diplomatic friction. The International Cricket Council formally warned Pakistan that non-participation would trigger disqualification and financial penalties under tournament regulations. The cricket boycott reflects broader deterioration in India-Pakistan diplomatic relations and demonstrates how regional political tensions extend into sporting domains.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 50%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="sources-india.html#cricket-boycott" class="source-link">View sources & spectrum →</a>
+      </div>
+    </article>
+
+    <!-- TERTIARY STORIES -->
+    <article class="news-card card-tertiary" data-keywords="india workers uae stranded trafficking labor jharkhand passports">
+      <img src="../images/india4.jpg" alt="Indian workers assistance center" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>Indian Workers Stranded Abroad; Government Intervention Demanded</h3>
+        <p>Families of Indian workers have appealed to the central government for intervention after numerous laborers from Jharkhand reported being stranded in the United Arab Emirates without wages and with passports withheld. Workers claim they are facing threats and severe financial distress, with allegations that they were trafficked under false employment contracts. The Ministry of External Affairs has been contacted regarding the situation.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 48%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="sources-india.html#workers-stranded" class="source-link">View sources & spectrum →</a>
+      </div>
+    </article>
+
+    <article class="news-card card-tertiary" data-keywords="nipah virus west bengal outbreak health epidemic barasat disease">
+      <img src="../images/india5.jpg" alt="Health workers in protective gear" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>Nipah Virus Outbreak Reported in West Bengal; Health Authorities Mobilize</h3>
+        <p>A Nipah virus outbreak was confirmed in West Bengal on January 21, 2026, with at least two initial cases recorded in Barasat. State health authorities and the Indian Council of Medical Research mobilized epidemiological investigation teams to trace contacts and contain spread. Nipah, a zoonotic virus transmitted from fruit bats to humans, carries significant mortality risk and limited therapeutic options.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 50%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="sources-india.html#nipah-virus" class="source-link">View sources & spectrum →</a>
+      </div>
+    </article>
+
+    <article class="news-card card-tertiary" data-keywords="india wetlands ramsar environment biodiversity conservation ecosystem protection">
+      <img src="../images/india6.jpg" alt="Wetland ecosystem conservation site" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>India Adds Wetlands to Ramsar Convention; Ecosystem Protection Advances</h3>
+        <p>India officially designated two additional wetlands as Ramsar sites on February 2, 2026, ahead of World Wetlands Day 2026, strengthening the nation's commitment to wetland conservation and biodiversity protection. The designations expand India's network of internationally recognized wetlands and demonstrate institutional coordination between state and central environmental authorities.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 49%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="sources-india.html#wetlands-conservation" class="source-link">View sources & spectrum →</a>
+      </div>
+    </article>
+
+  </section>
+</main>
+
+<script src="../menu.js"></script>
+<script src="../search.js"></script>
+
+</body>
+</html>

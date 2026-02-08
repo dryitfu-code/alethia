@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Middle East News | Alethia News</title>
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="sideMenu" class="side-menu">
+  <div class="side-menu-header">
+    <h3>Menu</h3>
+    <button id="closeMenu" aria-label="Close menu">&times;</button>
+  </div>
+  <ul class="side-menu-links">
+    <li><a href="about.html">How Alethia News Works</a></li>
+    <li><a href="sources.html">Sources & Methodology</a></li>
+    <li><a href="ethics.html">Editorial Principles</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
+<div id="overlay"></div>
+
+<header class="top-header">
+  <div class="header-left">
+    <button id="openMenu" class="menu-icon" aria-label="Open menu">&#9776;</button>
+    <a href="../index.html" class="site-name">Alethia News</a>
+  </div>
+  <input type="text" id="searchInput" class="search-box" placeholder="Search news..." aria-label="Search articles">
+</header>
+
+<div class="news-ticker-container">
+  <div class="ticker-text">
+    MIDDLE EAST: Gaza ceasefire progresses with Palestinian returns +++ Iran-EU tensions escalate +++ Israeli operations continue +++ US-Israel coordination on Iran
+  </div>
+</div>
+
+<nav class="region-nav">
+  <a href="../index.html">Global</a>
+  <a href="europe.html">European</a>
+  <a href="america.html">American</a>
+  <a href="india.html">Indian</a>
+  <a href="china.html">Chinese</a>
+  <a href="russia.html">Russian</a>
+  <a href="japan.html">Japanese</a>
+  <a href="middle_east.html" class="active">Middle East</a>
+  <a href="africa.html">African</a>
+</nav>
+
+<main class="main-content">
+  <h2>Middle East News</h2>
+  <p id="noResults" class="no-results" style="display:none;">No articles found matching your search.</p>
+
+  <section class="news-grid" id="newsGrid">
+
+    <article class="news-card card-lead" data-keywords="gaza ceasefire palestinian israel hamas peace rafah humanitarian">
+      <img src="../images/mideast1.jpg" alt="Palestinians returning to Gaza" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>Gaza Ceasefire Progresses; Palestinians Return for First Time in Two Years</h3>
+        <p>Palestinians began returning to Gaza for the first time in nearly two years on February 3, 2026, following the implementation of the U.S.-brokered ceasefire agreement between Israel and Hamas that commenced on October 8, 2025. The returning families reunited with relatives while simultaneously raising symbolic affirmations against permanent displacement schemes. The Rafah border crossing reopened on a limited basis on February 1, permitting evacuation of critically ill and injured persons. The ceasefire has substantially reduced lethal hostilities, though Israel maintains operational freedom across Gazan territory and continues security operations at reduced intensity. The second phase of the comprehensive peace plan, addressing Hamas weapons decommissioning and establishment of an international stabilization force, remains under negotiation.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 48%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="sources-mideast.html#gaza-ceasefire" class="source-link">View sources & spectrum →</a>
+      </div>
+    </article>
+
+    <article class="news-card card-secondary" data-keywords="iran eu irgc terrorism sanctions europe parliament protest">
+      <img src="../images/mideast2.jpg" alt="Iranian parliament session" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>Iran-EU Tensions Escalate; IRGC Listed as Terrorist Entity</h3>
+        <p>The European Union formally designated Iran's Islamic Revolutionary Guard Corps as a terrorist organization on January 30, 2026, triggering rapid Iranian retaliation. Iranian lawmakers gathered in parliament on February 2 wearing IRGC uniforms and chanting anti-Western slogans. The Iranian government reciprocally declared European armies "terrorist groups" in response to the designation. The escalation follows violent government crackdowns on public protests inside Iran, during which security forces killed numerous demonstrators.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 47%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="sources-mideast.html#iran-eu" class="source-link">View sources & spectrum →</a>
+      </div>
+    </article>
+
+    <article class="news-card card-secondary" data-keywords="israel palestine west bank demolitions military operations civilian">
+      <img src="../images/mideast3.jpg" alt="West Bank military operations" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>Israeli Security Forces Kill Multiple Palestinians; Systematic Demolitions Continue</h3>
+        <p>Israeli security forces killed 38 Palestinians during January 2026 while continuing large-scale military operations involving extensive demolitions of civilian homes and infrastructure across refugee camps. The operations have displaced tens of thousands of Palestinians from residential areas. The scale and scope of demolitions have prompted international scrutiny regarding civilian protection standards and compliance with international humanitarian law.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 45%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="sources-mideast.html#israeli-operations" class="source-link">View sources & spectrum →</a>
+      </div>
+    </article>
+
+    <article class="news-card card-tertiary" data-keywords="us israel military iran pentagon security coordination strategy">
+      <img src="../images/mideast4.jpg" alt="Pentagon military meeting" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>U.S. and Israeli Military Officials Coordinate Regarding Iran</h3>
+        <p>Top U.S. and Israeli military generals met at the Pentagon on February 2, 2026, to discuss security coordination and contingency planning regarding potential Iranian military responses. The meetings reflect heightened tensions following Iran's violent suppression of public protests and rising concerns regarding potential escalation in the Strait of Hormuz.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 53%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="sources-mideast.html#us-israel-iran" class="source-link">View sources & spectrum →</a>
+      </div>
+    </article>
+
+    <article class="news-card card-tertiary" data-keywords="israel syria peace negotiation buffer zone netanyahu border security">
+      <img src="../images/mideast5.jpg" alt="Israel-Syria border region" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>Israel-Syria De-escalation Talks Continue; Demilitarized Zone Key Point</h3>
+        <p>Israel and Syria held direct security negotiations on de-escalation arrangements on the border region, representing the closest approach to agreement in years. Israeli Prime Minister Benjamin Netanyahu signaled that a demilitarized buffer zone arrangement could make a peace accord "possible," while Syrian officials have rejected any territorial demilitarization that infringes on Syrian sovereignty.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 50%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="sources-mideast.html#israel-syria" class="source-link">View sources & spectrum →</a>
+      </div>
+    </article>
+
+    <article class="news-card card-tertiary" data-keywords="palestine gaza governance authority international administration cairo trump">
+      <img src="../images/mideast6.jpg" alt="Palestinian governance meeting in Cairo" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3>Palestinian Authority Prepares Interim Governance Structure</h3>
+        <p>The Palestinian committee designated to govern Gaza under U.S. oversight held its inaugural meeting in Cairo on January 16, 2026, establishing protocols for interim technocratic governance. The governance structure comprises Palestinian and international experts under oversight of a Board of Peace chaired by U.S. President Donald Trump, with eventual transition planned to a reformed Palestinian Authority.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 49%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="sources-mideast.html#gaza-governance" class="source-link">View sources & spectrum →</a>
+      </div>
+    </article>
+
+  </section>
+</main>
+
+<script src="../menu.js"></script>
+<script src="../search.js"></script>
+
+</body>
+</html>

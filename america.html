@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>American News | Alethia News</title>
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="sideMenu" class="side-menu">
+  <div class="side-menu-header">
+    <h3>Menu</h3>
+    <button id="closeMenu" aria-label="Close menu">&times;</button>
+  </div>
+  <ul class="side-menu-links">
+    <li><a href="about.html">How Alethia News Works</a></li>
+    <li><a href="sources.html">Sources & Methodology</a></li>
+    <li><a href="ethics.html">Editorial Principles</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
+<div id="overlay"></div>
+
+<header class="top-header">
+  <div class="header-left">
+    <button id="openMenu" class="menu-icon" aria-label="Open menu">&#9776;</button>
+    <a href="../index.html" class="site-name">Alethia News</a>
+  </div>
+  <input type="text" id="searchInput" class="search-box" placeholder="Search news..." aria-label="Search articles">
+</header>
+
+<div class="news-ticker-container">
+  <div class="ticker-text">USA: Immigration enforcement protests nationwide +++ House passes spending bill +++ Trump-India trade deal +++ Texas Democrats gain congressional seats</div>
+</div>
+
+<nav class="region-nav">
+  <a href="../index.html">Global</a>
+  <a href="europe.html">European</a>
+  <a href="america.html" class="active">American</a>
+  <a href="india.html">Indian</a>
+  <a href="china.html">Chinese</a>
+  <a href="russia.html">Russian</a>
+  <a href="japan.html">Japanese</a>
+  <a href="middle_east.html">Middle East</a>
+  <a href="africa.html">African</a>
+</nav>
+
+<main class="main-content">
+  <h2>American News</h2>
+  <p id="noResults" class="no-results" style="display:none;">No articles found matching your search.</p>
+
+  <section class="news-grid" id="newsGrid">
+
+    <article class="news-card card-lead" data-keywords="immigration ice enforcement minneapolis protests trump">
+      <img src="../images/usa1.jpg" alt="Protesters rally against ICE operations" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3><a href="usa-immigration.html" style="color: #000080; text-decoration: none;">Trump Administration's Immigration Enforcement Triggers Nationwide Protests</a></h3>
+        <p>The Trump administration's 'Operation Metro Surge,' deploying 3,000 federal immigration agents into Minneapolis and other cities, has sparked more than 300 anti-ICE protests across the nation on February 3.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 52%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="usa-immigration.html" class="source-link">Read Full Story →</a>
+      </div>
+    </article>
+
+    <article class="news-card card-secondary" data-keywords="immigration ice enforcement minneapolis protests trump">
+      <img src="../images/usa2.jpg" alt="US Capitol building" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3><a href="usa-spending.html" style="color: #000080; text-decoration: none;">House Passes Spending Bill; Government Funding Crisis Partially Resolved</a></h3>
+        <p>The House of Representatives passed a major spending package on February 3, 2026, ending a partial government shutdown that had extended from early February.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 50%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="usa-spending.html" class="source-link">Read Full Story →</a>
+      </div>
+    </article>
+
+    <article class="news-card card-secondary" data-keywords="immigration ice enforcement minneapolis protests trump">
+      <img src="../images/usa3.jpg" alt="US-India trade negotiations" onerror="this.style.display='none'">
+      <div class="news-card-content">
+        <h3><a href="usa-india-trade.html" style="color: #000080; text-decoration: none;">Trump Administration Announces Trade Deal with India</a></h3>
+        <p>President Trump announced on February 2, 2026, that the United States has reached a trade agreement with India, reducing U.S. tariffs on Indian exports to 18% in exchange for India ceasing purchases of Russian crude oil.</p>
+        
+        <div class="article-spectrum">
+          <div class="spectrum-bar">
+            <div class="spectrum-marker" style="left: 54%;"></div>
+          </div>
+          <div class="spectrum-labels">
+            <span>Left</span>
+            <span>Center</span>
+            <span>Right</span>
+          </div>
+        </div>
+        
+        <a href="usa-india-trade.html" class="source-link">Read Full Story →</a>
+      </div>
+    </article>
+  </section>
+</main>
+
+<script src="../menu.js"></script>
+<script src="../search.js"></script>
+</body>
+</html>
